@@ -103,9 +103,10 @@ import './App.css';
 
 import React from 'react'
 import User from "./components/User.jsx";
+import Products from "./components/Products.jsx";
 
 const App = () => {
-  return <User />;
+  return <Products />;
 }
 
 export default App
