@@ -1,5 +1,7 @@
 import React from 'react'
 
+import myPic from '../assets/img/1-1.webp'
+
 const myStyle = {
   width: '500px',
   height: '500px',
@@ -9,7 +11,7 @@ const myStyle = {
 
 const Image = () => {
   return (
-    <img style={myStyle} src='https://images.pexels.com/photos/28267590/pexels-photo-28267590.jpeg' alt='MyPicture' />
+    <img style={myStyle} src={myPic} alt='MyPicture' />
   )
 }
 

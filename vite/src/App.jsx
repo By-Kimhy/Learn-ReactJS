@@ -93,9 +93,10 @@ import './App.css';
 
 import React from 'react'
 import Profile from "./components/Profile.jsx";
+import GroupPoster from "./components/GroupPoster.jsx";
 
 const App = () => {
-  return <Profile />
+  return <GroupPoster />;
 }
 
 export default App
