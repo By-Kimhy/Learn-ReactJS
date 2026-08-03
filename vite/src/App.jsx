@@ -91,12 +91,21 @@ import './App.css';
 // export default App;
 
 
+// import React from 'react'
+// import Profile from "./components/Profile.jsx";
+// import GroupPoster from "./components/GroupPoster.jsx";
+
+// const App = () => {
+//   return <GroupPoster />;
+// }
+
+// export default App
+
 import React from 'react'
-import Profile from "./components/Profile.jsx";
-import GroupPoster from "./components/GroupPoster.jsx";
+import User from "./components/User.jsx";
 
 const App = () => {
-  return <GroupPoster />;
+  return <User />;
 }
 
 export default App
