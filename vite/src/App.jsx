@@ -3,17 +3,39 @@ import Job from "./components/Job.jsx";
 import Message from "./components/Message.jsx";
 import './App.css';
 
-function App() {
-  return (
-    <div className="container">
-      <Greeting />
-      <Job />
-      <Message />
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div className="container">
+//       <Greeting />
+//       <Job />
+//       <Message />
+//     </div>
+//   );
+// }
 
-export default App;
+// function App() {
+//   // const isLoading = true;
+//   // if (isLoading) {
+//   //   return <Greeting />;
+//   // } else {
+//   //   return <Job />;
+//   // }
+// }
+
+// const App = () => {
+//   // const text = "hello";
+//   // return <h1>{text && 'React'}</h1>;
+
+//   const uploading = true;
+//   // return <h1>{uploading ? 'The file is uploading' : 'No file is uploading'}</h1>;
+//   return <h1>{uploading ? <Loading /> : 'No such file'}</h1>;
+// };
+
+// function Loading() {
+//   return <span>Files are loading</span>;
+// }
+
+// export default App;
 
 // // import React from 'react';
 
@@ -67,3 +89,13 @@ export default App;
 // }
 
 // export default App;
+
+
+import React from 'react'
+import Profile from "./components/Profile.jsx";
+
+const App = () => {
+  return <Profile />
+}
+
+export default App
