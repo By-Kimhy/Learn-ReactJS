@@ -46,9 +46,9 @@ const Products = () => {
     //   })}
     // </div>
     <div>
-        {watches.map((p) => {
-            return <Card key={p.id} product={p} />
-        })}
+      {watches.map((product) => {
+        return <Card {...product} key={product.id}/>;
+      })}
     </div>
   );
 };

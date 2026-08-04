@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 
-const Card = ({product:{ img, brand, detail, price }}) => {
+const Card = ({ img, brand, detail, price }) => {
     // const { img, brand, detail, price } = props.product;
   return (
     <article>
