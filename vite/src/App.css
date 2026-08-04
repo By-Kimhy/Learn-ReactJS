@@ -1,9 +1,51 @@
-h3{
-    color: red;
-    font-size: 2rem;
+:root{
+    font-size: 62.5%;
+    font-family: sans-serif;
 }
 
-.container{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div,article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:dodgerblue;
+    font-size: 5rem;
+}
+button{
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+
+/* h3{
+    color: red;
+    font-size: 2rem;
+} */
+
+/* .container{
     background-color: yellow;
     padding: 10px;
-}
+} */
