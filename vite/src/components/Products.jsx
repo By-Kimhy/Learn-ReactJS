@@ -32,18 +32,23 @@ const Products = () => {
     // <div>
     //     {watches.map((watch) => <Card img={watch.img} brand={watch.brand} detail={watch.detail} price={watch.price} />)}
     // </div>
+    // <div>
+    //   {filteredWatches.map(({ img, brand, detail, price, id }) => {
+    //     return (
+    //       <Card
+    //         key={id}
+    //         img={img}
+    //         brand={brand}
+    //         detail={detail}
+    //         price={price}
+    //       />
+    //     );
+    //   })}
+    // </div>
     <div>
-      {filteredWatches.map(({ img, brand, detail, price, id }) => {
-        return (
-          <Card
-            key={id}
-            img={img}
-            brand={brand}
-            detail={detail}
-            price={price}
-          />
-        );
-      })}
+        {watches.map((p) => {
+            return <Card key={p.id} product={p} />
+        })}
     </div>
   );
 };

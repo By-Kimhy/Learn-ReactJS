@@ -1,7 +1,8 @@
 import React from 'react'
 import './Card.css'
 
-const Card = ({ img, brand, detail, price }) => {
+const Card = ({product:{ img, brand, detail, price }}) => {
+    // const { img, brand, detail, price } = props.product;
   return (
     <article>
         <img src={img} alt="watch" />
@@ -11,5 +12,6 @@ const Card = ({ img, brand, detail, price }) => {
     </article>
   )
 }
+
 
 export default Card
