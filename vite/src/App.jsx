@@ -1,20 +1,25 @@
-import react from "react";
-import "./App.css";
+import React from 'react'
+import './App.css'
+const obj = {
+  name: 'Kimhy',
+  age: 27,
+  job: 'Frontend Developer',
+}
+const newObj = {...obj, job: 'Backend Developer'}
 
 const App = () => {
-  // const arr = react.useState(0);
-  // const count =arr[0];
-  // const setCount = arr[1];
-  // function handleIncrement() {
-  //   setCount(count + 1);
+  const [user, setUser] = React.useState(obj);
+  // function handleChange(){
+  //   setUser(newObj);
   // }
-
-  const [count, setCount] = react.useState(0);
   return (
-    <div>
-      <h3>{count}</h3>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
-    </div>
+    <article>
+      <h2>{user.name}</h2>
+      <h2>{user.age}</h2>
+      <h2>{user.job}</h2>
+      {/* <button onClick={handleChange}>Change</button> */}
+      <button onClick={() => setUser(newObj)}>Change</button>
+    </article>
   )
 }
 
