@@ -15,6 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: #9fe9fdcf;
 }
 
 div,article{
@@ -27,6 +28,13 @@ div,article{
 h1, h2, h3, h4, h5, h6{
     /* color:dodgerblue; */
     font-size: 5rem;
+}
+input{
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    border: none;
+    outline: none;
 }
 button{
     background-color: dodgerblue;
