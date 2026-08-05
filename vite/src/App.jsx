@@ -11,7 +11,7 @@ const App = () => {
     //   setAlert(true);
     // }
 
-    setAlert(!alert);
+    setAlert(!alert); 
   }
   return (
     <div>
