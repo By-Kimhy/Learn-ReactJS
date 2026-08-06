@@ -1,7 +1,6 @@
 import {useEffect} from 'react'
 
 const App = () => {
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     async function fetchUsers(){
       try {
@@ -19,7 +18,4 @@ const App = () => {
     <div> </div>
   )
 }
-
-
-
 export default App
