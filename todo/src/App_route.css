@@ -4,19 +4,38 @@ div h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   width: 100%;
   font-size: 2rem;
   padding: 1rem;
 }
-nav {
+p,form {
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 1rem;
   gap: 1rem;
+}
+button,input {
+  padding: 10px;
+  border-radius: 5px;
+}
+header {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: space-between;
   background-color: rgb(230, 230, 230);
 }
 
 a {
   text-decoration: none;
+  padding: 1rem;
+}
+
+.logout {
+  background-color: rgb(255, 107, 107);
+  color: white;
+  border: none;
+  padding: 5px;
 }
