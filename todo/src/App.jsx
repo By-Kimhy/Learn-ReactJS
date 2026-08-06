@@ -1,4 +1,4 @@
-import {useState,useEffect} from 'react'
+import {useEffect} from 'react'
 
 const App = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
